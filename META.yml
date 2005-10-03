@@ -1,7 +1,7 @@
 # http://module-build.sourceforge.net/META-spec.html
 #XXXXXXX This is a prototype!!!  It will change in the future!!! XXXXX#
 name:         FormValidator-Simple-Plugin-Number-Phone-JP
-version:      0.01
+version:      0.02
 version_from: lib/FormValidator/Simple/Plugin/Number/Phone/JP.pm
 installdirs:  site
 requires:

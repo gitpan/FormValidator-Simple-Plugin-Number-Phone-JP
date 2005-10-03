@@ -4,7 +4,7 @@ use strict;
 use Number::Phone::JP;
 use FormValidator::Simple::Constants;
 
-our $VERSION = '0.01';
+our $VERSION = '0.02';
 our @CARP_NOT = qw(Number::Phone::JP);
 
 sub NUMBER_PHONE_JP {
@@ -27,7 +27,7 @@ FormValidator::Simple::Plugin::Number::Phone::JP - Japanese phone number validat
 
 =head1 SYNOPSIS
 
-  use FormValidator::Simple::Plugin::Number::Phone::JP;
+  use FormValidator::Simple qw/Number::Phone::JP/;
 
   my $result = FormValidator::Simple->check( $req => [
       tel       => [ 'NOT_BLANK', 'NUMBER_PHONE_JP' ],

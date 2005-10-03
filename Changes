@@ -1,0 +1,6 @@
+Revision history for Perl extension FormValidator::Simple::Plugin::Number::Phone::JP.
+
+0.01  Mon Oct  3 09:33:11 2005
+	- original version; created by h2xs 1.23 with options
+		-X -A FormValidator::Simple::Plugin::Number::Phone::JP
+
